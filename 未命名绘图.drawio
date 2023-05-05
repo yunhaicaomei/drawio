@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T08:46:27.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="k1EODSuNQiGtdJr4X_LC" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T09:04:45.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WicwTcl8PLTQvVlqzp3s" version="21.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1687" dy="2117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-17" value="解码主表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="270" y="-780" width="240" height="359" as="geometry" />
+          <mxGeometry x="360" y="-780" width="240" height="359" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-21" value="+ ID: 解码ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry y="208" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-108" value="3点负责人" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="270" y="-1160" width="240" height="242" as="geometry" />
+          <mxGeometry x="360" y="-1160" width="240" height="242" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-75" value="+ UID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-108">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -113,7 +113,7 @@
           <mxGeometry y="130" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-9" value="3点解码明细" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="577" y="-1160" width="250" height="502" as="geometry" />
+          <mxGeometry x="720" y="-1160" width="250" height="502" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-10" value="+ UID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-9">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -154,11 +154,14 @@
         <mxCell id="u6Bn97f6bg5K26w9lrnU-42" value="+ TemplateTreeDetailPId: 模板树明细PID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-9">
           <mxGeometry y="338" width="250" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-310" value="+ BcTemplateId: 保龄球图模板ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-9">
+          <mxGeometry y="364" width="250" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-17" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-9">
-          <mxGeometry y="364" width="250" height="8" as="geometry" />
+          <mxGeometry y="390" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-45" value="6点解码明细" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="577" y="-640" width="253" height="502" as="geometry" />
+          <mxGeometry x="720" y="-640" width="253" height="502" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-46" value="+ UID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-45">
           <mxGeometry y="26" width="253" height="26" as="geometry" />
@@ -202,8 +205,11 @@
         <mxCell id="u6Bn97f6bg5K26w9lrnU-60" value="+ PdDetailRootID: 源解码明细UID(上层3点)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-45">
           <mxGeometry y="364" width="253" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-311" value="+ BcTemplateId: 保龄球图模板ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-45">
+          <mxGeometry y="390" width="253" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-61" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-45">
-          <mxGeometry y="390" width="253" height="8" as="geometry" />
+          <mxGeometry y="416" width="253" height="8" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-77" value="保龄球图" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="360" y="1200" width="280" height="560" as="geometry" />
@@ -256,8 +262,11 @@
         <mxCell id="u6Bn97f6bg5K26w9lrnU-186" value="+ EstEndDate: 结束时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-77">
           <mxGeometry y="416" width="280" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-308" value="+ BcTemplateId: 保龄球图模板ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-77">
+          <mxGeometry y="442" width="280" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-94" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-77">
-          <mxGeometry y="442" width="280" height="8" as="geometry" />
+          <mxGeometry y="468" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-99" value="保龄球图数据" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="720" y="1200" width="280" height="560" as="geometry" />
@@ -352,8 +361,11 @@
         <mxCell id="u6Bn97f6bg5K26w9lrnU-147" value="+ PdDetailRootID: 源解码明细UID(上层3点)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-132">
           <mxGeometry y="364" width="280" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-309" value="+ BcTemplateId: 保龄球图模板ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-132">
+          <mxGeometry y="390" width="280" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-149" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-132">
-          <mxGeometry y="390" width="280" height="8" as="geometry" />
+          <mxGeometry y="416" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u6Bn97f6bg5K26w9lrnU-133" target="u6Bn97f6bg5K26w9lrnU-98">
           <mxGeometry relative="1" as="geometry" />
@@ -452,7 +464,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-231" value="项目模板表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="10" y="620" width="230" height="164" as="geometry" />
+          <mxGeometry x="10" y="620" width="230" height="200" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-232" value="+ ID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-231">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -499,7 +511,7 @@
         <mxCell id="u6Bn97f6bg5K26w9lrnU-282" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-265">
           <mxGeometry y="208" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="u6Bn97f6bg5K26w9lrnU-294" value="指标模板" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-294" value="保龄球图模板" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="360" y="1920" width="280" height="400" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-295" value="+ ID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
@@ -526,19 +538,100 @@
         <mxCell id="u6Bn97f6bg5K26w9lrnU-302" value="+ Cycle_Code: 计算周期(年月日)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
           <mxGeometry y="208" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="u6Bn97f6bg5K26w9lrnU-303" value="+ Decode_Template: 解码模板区分" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-304" value="+ ISDYTM: 是否DYTM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
           <mxGeometry y="234" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="u6Bn97f6bg5K26w9lrnU-304" value="+ ISDYTM: 是否DYTM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-305" value="+ DecimalPlaces: 小数点位数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
           <mxGeometry y="260" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="u6Bn97f6bg5K26w9lrnU-305" value="+ DecimalPlaces: 小数点位数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
-          <mxGeometry y="286" width="280" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-306" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-294">
-          <mxGeometry y="312" width="280" height="8" as="geometry" />
+          <mxGeometry y="286" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="u6Bn97f6bg5K26w9lrnU-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u6Bn97f6bg5K26w9lrnU-269" target="u6Bn97f6bg5K26w9lrnU-299">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-312" value="价值链模板表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry y="2360" width="280" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-313" value="+ ID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-314" value="+ Template_Name: 模板名称" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-315" value="+ Ele_Type: 元素类型(BUDGET,KPI)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-316" value="+ Template_Type: 模板类型(组合，树)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-317" value="+ Domain_Code: 业务域" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="130" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-325" value="+ Template_Desc: 模板描述" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="156" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-321" value="+ Decode_Template: 解码模板区分" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="182" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-324" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-312">
+          <mxGeometry y="208" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-326" value="价值链模板树" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="360" y="2360" width="280" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-327" value="+ ID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-335" value="+ PID: 上级ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-328" value="+ Node_Name: 名称" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-329" value="+ Template_Id: 模板Id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-330" value="+ BC_Template_Id: 保龄球图模板Id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="130" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-331" value="+ FormulaId: 公式ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="156" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-332" value="+ SourceId: 模板描述" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="182" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-333" value="+ Unit_Code: 单位" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="208" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-334" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-326">
+          <mxGeometry y="234" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-336" value="价值链计算公式" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="760" y="2360" width="280" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-337" value="+ ID: 主键" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-336">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-338" value="+ FORMULA_CONTENT:&amp;nbsp;公式内容" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-336">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-339" value="+ FORMULA_DESC: 公式描述" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-336">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-344" value="+ Unit_Code: 单位" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-336">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-345" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u6Bn97f6bg5K26w9lrnU-336">
+          <mxGeometry y="130" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-346" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u6Bn97f6bg5K26w9lrnU-313" target="u6Bn97f6bg5K26w9lrnU-329">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u6Bn97f6bg5K26w9lrnU-295" target="u6Bn97f6bg5K26w9lrnU-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6Bn97f6bg5K26w9lrnU-359" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u6Bn97f6bg5K26w9lrnU-337" target="u6Bn97f6bg5K26w9lrnU-331">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
